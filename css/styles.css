@@ -1,0 +1,61 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.menu {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #000000;;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Navigation styling */
+  nav {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 15px;
+  }
+  
+  /* Main content styling */
+  main {
+    padding: 20px;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+    border-radius:  0 0 10px 10px;
+  }
+  
+  .loader {
+      width: 50px;
+      position: absolote;
+      top: 260px;
+      left: 200px;
+      z-index: -1;
+      display: none;
+  }
+  
